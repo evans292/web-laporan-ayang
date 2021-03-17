@@ -202,7 +202,7 @@ a {
             <div class="col-lg-6">
                 <div class="card1 pb-5">
                     <div class="row"> <img src="https://i.imgur.com/CXQmsmF.png" class="logo invisible"> </div>
-                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src="https://i.imgur.com/uNGdWHi.png" class="image"> </div>
+                    <div class="row px-3 justify-content-center mt-4 mb-5 border-line"> <img src="img/login.jpeg" class="image"> </div>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -210,15 +210,14 @@ a {
                   <form class="user" method="post" action="cek_login.php">
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Username</h6>
-                        </label> <input class="mb-4" type="text" name="username" placeholder="Enter a valid email address"> </div>
+                        </label> <input class="mb-4" type="text" name="username" placeholder="Masukan Username"> </div>
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Password</h6>
-                        </label> <input type="password" name="password" placeholder="Enter password"> </div>
-                    <div class="row px-3 mb-4">
-                        <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" class="custom-control-input"> <label for="chk1" class="custom-control-label text-sm">Remember me</label> </div> <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
-                    </div>
-                    <div class="row mb-3 px-3"> <button type="submit" class="btn btn-success text-center">Login</button> </div>
-                    <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a class="text-danger ">Register</a></small> </div>
+                        </label> <input type="password" name="password" placeholder="Masukan password"> </div>
+                    <br>
+                    <div class="row mb-3 px-3"> <button type="submit" class="btn btn-success text-center">Login</button> </div><br>
+                    <div class="row mb-4 px-3"> <small class="font-weight-bold">Belum punya akun? <a class="text-danger " href="register.php">Register</a></small> </div>
+                    <div class="row mb-4 px-3"> <small class="font-weight-bold"><a class="text-danger " href="loginadmin.php">Login sebagai Admin / Petugas</a></small> </div>
                   </form>
                 </div>
             </div>

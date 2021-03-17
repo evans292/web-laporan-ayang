@@ -43,7 +43,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center">
         <div class="logo mr-auto">
-          <h1 class="text-light"><a href="index.html"><span>Ayang</span></a></h1>
+          <h1 class="text-light"><a href="index.html"><span>Hello!</span></a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -60,8 +60,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-      <h1>Your New Online Presence with Bethany</h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
+      <h1>Selamat Datang di Aplikasi Pengaduan Masyarakat</h1>
+      <h2>Layanan Yang Menampung Saran Maupun Kritikan Dari Masyarakat Untuk Kemajuan Dan Kenyamanan Bersama</h2>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero -->
@@ -69,39 +69,8 @@
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
+    
+    <!-- End Clients Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -109,23 +78,22 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <h2>Eum ipsam laborum deleniti velitena</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
+            <h2>Aplikasi Pengaduan Masyarakat</h2>
+            <h3>Aplikasi berbasis web yang di ciptakan untuk menampung saran maupun kritikan dari masyarakat untuk kemajuan bersama. </h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Saran atau kritikan masyrakat merupakan salah satu bentuk keikutsertaan masyarakat dalam proses pembangunan. 
+              Yang dijadikan salah satu pertimbangan dalam memberikan rekomendasi terkait kebijakan dan arah pembangunan yang diambil oleh pemerintah.
+              Hal ini lebih nyata terlihat di era desentralisasi pemerintahan seperti sekarang ini. Berikut manfaat yang didapat :
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
+              <li><i class="ri-check-double-line"></i>Memudahkan masyarakat untuk menyampaikan aspirasi</li>
+              <li><i class="ri-check-double-line"></i>Data laporan menjadi lebih tertata</li>
+              <li><i class="ri-check-double-line"></i> Meningkatkan kecepatan dalam merespons dan menindaklanjuti suatu pengaduan</li>
             </ul>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Yuk sampaikan aspirasimu!
             </p>
           </div>
         </div>
@@ -140,23 +108,23 @@
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">232</span>
-            <p>Clients</p>
+            <span data-toggle="counter-up">2.000</span>
+            <p>Keluarga</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">521</span>
-            <p>Projects</p>
+            <span data-toggle="counter-up">52.100</span>
+            <p>Desa</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">1,463</span>
-            <p>Hours Of Support</p>
+            <span data-toggle="counter-up">50</span>
+            <p>Kecamatan</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-toggle="counter-up">15</span>
-            <p>Hard Workers</p>
+            <span data-toggle="counter-up">15.000</span>
+            <p>Penduduk Sumedang</p>
           </div>
 
         </div>
@@ -171,13 +139,14 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-right">
             <div class="content">
-              <h3>Why Choose Bethany for your company website?</h3>
+              <h3>Adakah yang ingin kamu sampaikan? </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                Punya aspirasi yang bertujuan untuk kemajuan bersama? punya kritikan akan sistem pemerintah dalam melayani masyarakat? tapi bingung
+                untuk menyampaikannya?. Disini tempatnya kamu bisa menyampaikan saran maupun kritikan dengan cara menyampaikannya lewat Aplikasi Pengaduan MAsyarakat.
+                Kami akan tanggapi dan melakukan timbal balik pengaduan secara cepat!
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                
               </div>
             </div>
           </div>
@@ -187,22 +156,22 @@
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h4>Sampaikan</h4>
+                    <p>Sampaikan saran maupun kritikan kamu pada kami</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <h4>Tanggapi</h4>
+                    <p>Akan kami tanggapi</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <h4>Hasil</h4>
+                    <p>Tentunya akan ada hasil / timbal balik atas pengaduanmu, yang bertujuan untuk kemajuan bersama</p>
                   </div>
                 </div>
               </div>
@@ -218,9 +187,8 @@
       <div class="container">
 
         <div class="text-center" data-aos="zoom-in">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>Dukungan</h3>
+          <p> Dukung kami untuk meingkatkan kinerja dalam aplikasi ini</p>
         </div>
 
       </div>
@@ -237,13 +205,10 @@
         <div class="row d-flex justify-content-between">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Bethany</h3>
+            <h3>Euis Khoirunnisa</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +62 822-6230-6579<br>
+              <strong>Email:</strong> euiskhoirun@gmail.com<br>
             </p>
           </div>
         </div>
@@ -254,23 +219,17 @@
 
       <div class="mr-md-auto text-center text-md-left">
         <div class="copyright">
-          &copy; Copyright <strong><span>Bethany</span></strong>. All Rights Reserved
+          &copy; Copyright by euis khoirunnisa 2021
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
+      
     </div>
   </footer><!-- End Footer -->
 
