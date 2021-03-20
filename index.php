@@ -43,7 +43,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center">
         <div class="logo mr-auto">
-          <h1 class="text-light"><a href="index.html"><span>Hello!</span></a></h1>
+          <h1 class="text-light"><a href="#"><span>Hello!</span></a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -142,7 +142,7 @@
               <h3>Adakah yang ingin kamu sampaikan? </h3>
               <p>
                 Punya aspirasi yang bertujuan untuk kemajuan bersama? punya kritikan akan sistem pemerintah dalam melayani masyarakat? tapi bingung
-                untuk menyampaikannya?. Disini tempatnya kamu bisa menyampaikan saran maupun kritikan dengan cara menyampaikannya lewat Aplikasi Pengaduan MAsyarakat.
+                untuk menyampaikannya?. Disini tempatnya kamu bisa menyampaikan saran maupun kritikan dengan cara menyampaikannya lewat Aplikasi Pengaduan Masyarakat.
                 Kami akan tanggapi dan melakukan timbal balik pengaduan secara cepat!
               </p>
               <div class="text-center">

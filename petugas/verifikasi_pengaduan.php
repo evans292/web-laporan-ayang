@@ -29,7 +29,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Data Pengaduan</h6>
+              <h6 class="m-0 font-weight-bold text-success">Data Pengaduan</h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -48,7 +48,7 @@
 
                   <?php
                   require '../koneksi.php';
-                  $sqli=mysqli_query($konek, "select * from pengaduan where status='0'");
+                  $sqli=mysqli_query($konek, "select * from pengaduan where status='proses'");
                   while ($data=mysqli_fetch_array($sqli)) {
 
                   ?>
@@ -64,11 +64,19 @@
                       <td>
 
                       <!--Button-->
-                      <a href="?url=detail_pengaduan&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-info btn-icon-split">
+                      <a href="?url=detail_pengaduan&id=<?php echo $data['id_pengaduan']; 
+                      ?>" class="btn btn-info btn-icon-split">
+                        <span class="icon text-white-50">
+                        <i class="fas fa-info"></i>
+                        </span>
+                        <span class="text">Detail</span>
+                      </a>
+                      <a href="?url=tanggapan&id=<?php echo $data['id_pengaduan']; 
+                      ?>" class="btn btn-danger btn-icon-split mt-2">
                         <span class="icon text-white-50">
                         <i class="fas fa-check"></i>
                         </span>
-                        <span class="text">Detail & Verifikasi</span>
+                        <span class="text">Tanggapi</span>
                       </a>
 
                      
@@ -94,7 +102,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; by euis khoirunnisa 2021</span>
+
           </div>
         </div>
       </footer>

@@ -24,11 +24,11 @@
 </head>
 
 <body id="page-top">
-    <button type="button" class="btn btn-warning" onclick="frames['frame'].print();">
+    <button type="button" class="btn btn-success" onclick="frames['frame'].print();">
         <i class="fa fa-print"></i>
         Cetak Data 
         </button>
-        <iframe src="cetak_pengaduan.php" name="frame" width="100%" height="600" frameborder="0">
+        <iframe src="cetak_pengaduan.php" class="mt-2" name="frame" width="100%" height="600" frameborder="0">
         </iframe>
 
 </body>

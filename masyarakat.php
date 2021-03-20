@@ -19,7 +19,7 @@ if(!isset($_SESSION['nama']))
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Laporan_Masyarakat</title>
+  <title>Laporan Masyarakat</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -36,14 +36,14 @@ if(!isset($_SESSION['nama']))
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center ml-3" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-keyboard"></i>
         </div>
-        <div class="sidebar-brand-text mx-3"> <sup>Laporan_Masyarakat</sup></div>
+        <div class="sidebar-brand-text mx-3"> <sup>Laporan Masyarakat</sup></div>
       </a>
 
       <!-- Divider -->
@@ -61,7 +61,7 @@ if(!isset($_SESSION['nama']))
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Interface
+        Menu
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
@@ -105,14 +105,15 @@ if(!isset($_SESSION['nama']))
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow d-flex align-items-center justify-content-between">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
 
-         <h1>Aplikasi Pengaduan Masyarakat<h2>
+          <h4 class="text-uppercase text-dark font-weight-bold">Aplikasi Pengaduan Masyarakat</h4>
+          <p class="mt-2 font-weight-bold text-capitalize"><?= $_SESSION['nama']; ?></p>
 
         </nav>
         <!-- End of Topbar -->

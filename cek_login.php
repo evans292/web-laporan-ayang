@@ -17,8 +17,8 @@ $cek=mysqli_num_rows($sqli);
     {
         ?>
         <script type="text/javascript">
-        alert ('Simpan Data Gagal');
-        window.location="index.php";
+        alert ('Login Gagal');
+        window.location="login.php";
         </script>
 <?php
     }

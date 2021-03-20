@@ -29,7 +29,7 @@
     </div>
     <div class="card-body">
     <div class="form-group cols-sm-6">
-    <a href="?url=lihat_pengaduan" class="btn btn-primary btn-icon-split">
+    <a href="?url=lihat_pengaduan" class="btn btn-success btn-icon-split">
         <span class="icon text-white-50">
         <i class="fas fa-arrow-left"></i>
         </span>

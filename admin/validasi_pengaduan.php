@@ -48,7 +48,7 @@
 
                   <?php
                   require '../koneksi.php';
-                  $sqli=mysqli_query($konek, "select * from pengaduan where status='proses'");
+                  $sqli=mysqli_query($konek, "select * from pengaduan where status='0'");
                   while ($data=mysqli_fetch_array($sqli)) {
 
                   ?>
@@ -60,23 +60,21 @@
                       <td><?php echo $data['nik']; ?> </td>
                       <td><?php echo $data['isi_laporan']; ?> </td>
                       <td><?php echo $data['foto']; ?> </td>
-                      <td><?php echo $data['status']; ?> </td>
+                      <td>
+                        <?php if($data['status'] == 0) { ?>
+                          menunggu
+                        <?php } else { ?>
+                        <?php echo $data['status']; ?>
+                        <?php } ?>
+                      </td>
                       <td>
 
                       <!--Button-->
-                      <a href="?url=detail_pengaduan&id=<?php echo $data['id_pengaduan']; 
-                      ?>" class="btn btn-info btn-icon-split">
-                        <span class="icon text-white-50">
-                        <i class="fas fa-info"></i>
-                        </span>
-                        <span class="text">Detail</span>
-                      </a>
-                      <a href="?url=tanggapan&id=<?php echo $data['id_pengaduan']; 
-                      ?>" class="btn btn-danger btn-icon-split mt-2">
+                      <a href="?url=detail_validasi&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-info btn-icon-split">
                         <span class="icon text-white-50">
                         <i class="fas fa-check"></i>
                         </span>
-                        <span class="text">Tanggapi</span>
+                        <span class="text">Detail & Verifikasi</span>
                       </a>
 
                      
@@ -102,7 +100,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-
+            <span>Copyright &copy; by euis khoirunnisa 2021</span>
           </div>
         </div>
       </footer>

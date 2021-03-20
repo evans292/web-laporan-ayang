@@ -24,7 +24,7 @@
 <body id="page-top">
 
 <div class="card shadow">
-    <div class="card-header">
+    <div class="card-header text-success">
         Tulis Pengaduan
     </div>
     <div class="card-body">
@@ -45,13 +45,13 @@
             </div>
              <div class="form-group cols-sm-6">
                 <label>Unggah Foto</label>
-                <input type="file" name="foto"  class="form-control" accept=".jpg, .jpeg, .png, .gif"><font color="red"> 
-                *tipe yang bisa di upload adalah : >jpg, .jpeg, .png, .gif</font>
+                <input type="file" name="foto"  class="form-control" accept=".jpg, .jpeg, .png, .gif">
+                <p class="my-2 text-danger">* tipe yang bisa di upload adalah : jpg, .jpeg, .png, .gif</p>
             </div>
             
             <div class="form -group col-sm-6">
-                <input type="submit" value="Simpan" class="btn btn-primary">
-                <input type="reset" value="Kosongkan" class="btn btn-warning">
+                <input type="submit" value="Simpan" class="btn btn-success">
+                <input type="reset" value="Kosongkan" class="btn btn-secondary">
             </div>
         </form>
 

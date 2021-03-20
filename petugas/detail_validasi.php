@@ -13,11 +13,11 @@
   <title>SB Admin 2 - Blank</title>
 
   <!-- Custom fonts for this template-->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -27,25 +27,33 @@
     <div class="card-header">
         Detail Pengaduan
     </div>
+        <?php
+        require '../koneksi.php';
+        $sqli=mysqli_query($konek, "select * from pengaduan where id_pengaduan='$_GET[id]'");
+        $data=mysqli_fetch_array($sqli);
+        if ($sqli)
+        { 
+        ?>
     <div class="card-body">
     <div class="form-group cols-sm-6">
-    <a href="?url=lihat_pengaduan" class="btn btn-success btn-icon-split">
+    <a href="?url=verifikasi_pengaduan" class="btn btn-success btn-icon-split">
         <span class="icon text-white-50">
         <i class="fas fa-arrow-left"></i>
         </span>
         <span class="text">Kembali</span>
     </a>
+
+    <a href="proses.php?id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-danger btn-icon-split" onclick="return confirm('Yakin akan diproses')">
+        <span class="icon text-white-50">
+        <i class="fas fa-check"></i>
+        </span>
+        <span class="text">Proses Verifikasi</span>
+    </a>
     </div>
     
         <form action="" method="post" class="form-horizontal" enctype="multipart/form-data">
 
-        <?php
-        require 'koneksi.php';
-        $sqli=mysqli_query($konek, "select * from pengaduan where id_pengaduan='$_GET[id]'");
-        $data=mysqli_fetch_array($sqli);
-        if ($sqli)
-        { 
-            ?>
+        
         
             <div class="form-group cols-sm-6">
                 <label>Tanggal Pengaduan</label>
@@ -61,7 +69,7 @@
                 <label>Bukti Foto</label>
                 <div>
                 <?php if ($data['foto'] != '') { ?>
-                <img src="foto/<?php echo $data['foto']; ?>" width=600>
+                <img src="../foto/<?php echo $data['foto']; ?>" width=600>
                 <?php } else { ?>
                     <p class="font-weight-bold">Tidak ada</p> 
                 <?php } ?>
@@ -75,14 +83,14 @@
 
 
                 <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
+  <script src="../js/sb-admin-2.min.js"></script>
 
 </body>
 

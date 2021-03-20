@@ -24,7 +24,7 @@
 <body id="page-top">
 
 <div class="card shadow">
-    <div class="card-header">
+    <div class="card-header text-success">
         Tambah Petugas
     </div>
     <div class="card-body">
@@ -48,16 +48,14 @@
             <div class="form-group cols-sm-6">
                 <label>Level</label>
                 <select class="form-control" name="level">
-                    <option>==pilih==</option>
+                    <option>Pilih</option>
                     <option value="admin">Admin</option>
                     <option value="petugas">Petugas</option>
                 </select>
             </div>
              
             
-            <div class="form -group col-sm-6">
-                <input type="submit" value="Simpan" class="btn btn-primary">
-            </div>
+                <input type="submit" value="Simpan" class="btn btn-success float-right">
         </form>
 
 

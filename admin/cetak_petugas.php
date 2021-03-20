@@ -37,11 +37,11 @@ session_start();
             </div>
             <div class="card-body">
 
-            <h3 class="m-0 font-weight-bold text-primary" align="center">DISKOMINFO SUMEDANG</h3>
-            <h4 class="m-0 font-weight-bold text-primary" align="center">Kantor Pemerintah di Sumedang</h4>
-            <h5 class="m-0 font-weight-bold text-primary" align="center">Jl. Angkrek No.103, Situ, Kec.Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45621</h5>
+            <h3 class="m-0 font-weight-bold text-success" align="center">DISKOMINFO SUMEDANG</h3>
+            <h4 class="m-0 font-weight-bold text-success" align="center">Kantor Pemerintah di Sumedang</h4>
+            <h5 class="m-0 font-weight-bold text-success" align="center">Jl. Angkrek No.103, Situ, Kec.Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45621</h5>
             <br><hr>
-            <h6 class="m-0 font-weight-bold text-primary" align="center">Laporan Data Petugas</h6>
+            <h6 class="m-0 font-weight-bold text-success" align="center">Laporan Data Petugas</h6>
             <br>
               <div class="table-responsive">
                 <table class="table table-bordered" id="" width="100%" cellspacing="0">
@@ -82,11 +82,11 @@ session_start();
               </div>
                 <br>
                 <br>
-                <h6 class="m-0 font-weight-bold text-primary" 
+                <h6 class="m-0 font-weight-bold text-success" 
                 align="right">Sumedang, <?php echo date('d M Y'); ?> </h6>
-                <h6 class="m-0 font-weight-bold text-primary" align="right">Petugas</h6>
+                <h6 class="m-0 font-weight-bold text-success" align="right">Petugas</h6>
                 <br><br><br>
-                <h6 class="m-0 font-weight-bold text-primary" align="right"><?php echo $_SESSION['nama']; ?> </h6>
+                <h6 class="m-0 font-weight-bold text-success" align="right"><?php echo $_SESSION['nama']; ?> </h6>
             </div>
           </div>
 

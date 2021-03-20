@@ -29,7 +29,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Daftar Tanggapan</h6>
+              <h6 class="m-0 font-weight-bold text-success">Daftar Tanggapan</h6>
             </div>
             <div class="card-body">
 
@@ -68,7 +68,7 @@
 
                       <!--Button-->
                     <a href="admin.php?url=edit_tanggapan&id=<?php echo $data['id_tanggapan']; ?>" 
-                    class="btn btn-primary btn-circle">
+                    class="btn btn-warning btn-circle">
                         <i class="fa fa-edit"></i>
                     </a>
                     <a href="delete_tanggapan.php?id=<?php echo $data['id_tanggapan']; ?>" 

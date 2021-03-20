@@ -23,7 +23,7 @@ if ($_SESSION['level']!="petugas")
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Laporan_Masyarakat</title>
+  <title>Laporan Masyarakat</title>
 
   <!-- Custom fonts for this template-->
   <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -40,14 +40,14 @@ if ($_SESSION['level']!="petugas")
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center ml-3" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-keyboard"></i>
         </div>
-        <div class="sidebar-brand-text mx-3"> <sup>Laporan_Masyarakat</sup></div>
+        <div class="sidebar-brand-text mx-3"> <sup>Laporan Masyarakat</sup></div>
       </a>
 
       <!-- Divider -->
@@ -65,7 +65,7 @@ if ($_SESSION['level']!="petugas")
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        Interface
+        Menu
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
@@ -73,10 +73,17 @@ if ($_SESSION['level']!="petugas")
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="?url=verifikasi_pengaduan">
+        <a class="nav-link" href="?url=validasi_pengaduan">
           <i class="fas fa-edit"></i>
+          <span>Validasi Pengaduan</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="?url=verifikasi_pengaduan">
+          <i class="fas fa-check"></i>
           <span>Verifikasi Pengaduan</span></a>
       </li>
+      
 
       <!-- Nav Item - Tables -->
       
@@ -105,14 +112,15 @@ if ($_SESSION['level']!="petugas")
       <div id="content">
 
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow d-flex align-items-center justify-content-between">
 
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
 
-         <h1>Aplikasi Pengaduan Masyarakat<h2>
+          <h4 class="text-uppercase text-dark font-weight-bold">Aplikasi Pengaduan Masyarakat</h4>
+          <p class="mt-2 font-weight-bold text-capitalize"><?= $_SESSION['nama']; ?></p>
 
         </nav>
         <!-- End of Topbar -->

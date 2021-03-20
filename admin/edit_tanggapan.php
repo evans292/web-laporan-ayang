@@ -24,7 +24,7 @@
 <body id="page-top">
 
 <div class="card shadow">
-    <div class="card-header">
+    <div class="card-header text-success">
         Edit Tanggapan
     </div>
     <div class="card-body">
@@ -61,10 +61,7 @@
             
              
             
-            <div class="form -group col-sm-6">
-                <input type="submit" value="Edit" class="btn btn-primary">
-
-            </div>
+                <input type="submit" value="Edit" class="btn btn-success float-right">
         </form>
     <?php } ?>
 

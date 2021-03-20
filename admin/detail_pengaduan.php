@@ -24,7 +24,7 @@
 <body id="page-top">
 
 <div class="card shadow">
-    <div class="card-header">
+    <div class="card-header text-success">
         Detail Pengaduan
     </div>
         <?php
@@ -36,7 +36,7 @@
         ?>
     <div class="card-body">
     <div class="form-group cols-sm-6">
-    <a href="?url=verifikasi_pengaduan" class="btn btn-primary btn-icon-split">
+    <a href="?url=verifikasi_pengaduan" class="btn btn-success btn-icon-split">
         <span class="icon text-white-50">
         <i class="fas fa-arrow-left"></i>
         </span>
@@ -44,10 +44,8 @@
     </a>
 
     
-        <form action="" method="post" class="form-horizontal" enctype="multipart/form-data">
+        <form action="" method="post" class="form-horizontal mt-4" enctype="multipart/form-data">
 
-        
-        
             <div class="form-group cols-sm-6">
                 <label>Tanggal Pengaduan</label>
                 <input type="text" name="tgl_pengaduan" value="<?php echo $data['tgl_pengaduan']; ?>" class="form-control"
@@ -56,15 +54,16 @@
              
              <div class="form-group cols-sm-6">
                 <label>Tulis Laporan</label>
-                <textarea class="form-control" rows="7" name="isi_laporan" readonly="">
-                    <?php echo $data['isi_laporan']; ?>
-
-                </textarea>
+                <textarea class="form-control" rows="7" name="isi_laporan" readonly=""><?php echo $data['isi_laporan']; ?></textarea>
             </div>
              <div class="form-group cols-sm-6">
                 <label>Bukti Foto</label>
                 <div>
+                <?php if ($data['foto'] != '') { ?>
                 <img src="../foto/<?php echo $data['foto']; ?>" width=600>
+                <?php } else { ?>
+                    <p class="font-weight-bold">Tidak ada</p> 
+                <?php } ?>
                 </div>
             </div>
             

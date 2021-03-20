@@ -25,8 +25,17 @@ if (isset($_GET['url']))
 else
 {
     ?>
-    Selamat Datang di Aplikasi Pengaduan Masyarakat  Layanan Yang Menampung Saran Maupun Kritikan Dari Masyarakat Untuk Kemajuan Dan Kenyamanan Bersama
-    <br></br>
-    Anda Login Sebagai : <h2><b> <?php echo $_SESSION['nama'];
+        <div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-success text-capitalize">Halo <?= $_SESSION['nama']; ?></h6>
+    </div>
+    <div class="card-body">
+        <div class="text-center">
+        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="">
+        </div>
+        <p class="text-justify">Selamat datang di Aplikasi Pengaduan Masyarakat layanan yang menampung saran maupun kritikan dari masyarakat untuk kemajuan dan kenyamanan bersama</p>
+    </div>
+    </div>
+    <?php
 }
 ?>

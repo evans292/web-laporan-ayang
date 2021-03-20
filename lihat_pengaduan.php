@@ -29,7 +29,7 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Data Pengaduan</h6>
+              <h6 class="m-0 font-weight-bold text-success">Data Pengaduan</h6>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -60,7 +60,13 @@
                       <td><?php echo $data['nik']; ?> </td>
                       <td><?php echo $data['isi_laporan']; ?> </td>
                       <td><?php echo $data['foto']; ?> </td>
-                      <td><?php echo $data['status']; ?> </td>
+                      <td>
+                        <?php if($data['status'] == 0) { ?>
+                          menunggu
+                        <?php } else { ?>
+                        <?php echo $data['status']; ?>
+                        <?php } ?>
+                      </td>
                       <td>
 
                       <!--Button-->
@@ -71,7 +77,7 @@
                         <span class="text">Detail</span>
                       </a>
 
-                      <a href="?url=lihat_tanggapan&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-primary btn-icon-split">
+                      <a href="?url=lihat_tanggapan&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-primary btn-icon-split mt-2">
                         <span class="icon text-white-50">
                         <i class="fas fa-eye"></i>
                         </span>

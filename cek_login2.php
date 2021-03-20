@@ -21,6 +21,7 @@ $cek=mysqli_num_rows($sqli);
         else if ($data['level']=="petugas")
         {
             session_start();
+        $_SESSION['id_petugas']=$data['id_petugas'];
         $_SESSION['user']=$user;
         $_SESSION['nama']=$data['nama_petugas'];
         $_SESSION['level']=$data['level'];
@@ -32,8 +33,8 @@ $cek=mysqli_num_rows($sqli);
     {
         ?>
         <script type="text/javascript">
-        alert ('Simpan Data Gagal');
-        window.location="index2.php";
+        alert ('Login gagal');
+        window.location="loginadmin.php";
         </script>
 <?php
     }
