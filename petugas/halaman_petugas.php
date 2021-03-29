@@ -33,7 +33,10 @@ else
     
     require '../koneksi.php';
     $sqli=mysqli_query($konek, "select * from pengaduan where status='tunggu'");
-    if ($cek=mysqli_num_rows($sqli))
+    $sqlie=mysqli_query($konek, "select * from pengaduan where status='proses'");
+    $cek=mysqli_num_rows($sqli); 
+    $ceki=mysqli_num_rows($sqlie);
+    if ($cek >= 1 || $ceki >= 1)
     {
     ?>
 
@@ -43,11 +46,27 @@ else
              <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Laporan Pengaduan</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada <?php echo $cek; ?> laporan dari masyarakat</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada <?php echo $cek; ?> laporan yang belum di VALIDASI</div>
                         </div>
                     <div class="col-auto">
                         <i class="fas fa-comments fa-4x text-gray-300"></i>
                         <span class="badge badge-danger badge-counter"><?php echo $cek; ?></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+             <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Laporan Pengaduan</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada <?php echo $ceki; ?> laporan yang belum di VERIFIKASI</div>
+                        </div>
+                    <div class="col-auto">
+                        <i class="fas fa-comments fa-4x text-gray-300"></i>
+                        <span class="badge badge-danger badge-counter"><?php echo $ceki; ?></span>
                     </div>
                 </div>
             </div>
@@ -73,7 +92,24 @@ else
              <div class="row no-gutters align-items-center">
                 <div class="col mr-2">
                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Laporan Pengaduan</div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada 0 laporan dari masyarakat</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada 0 laporan yang belum di VALIDASI</div>
+                        </div>
+                    <div class="col-auto">
+                        <i class="fas fa-comments fa-4x text-gray-300"></i>
+                        <span class="badge badge-danger badge-counter">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+             <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Laporan Pengaduan</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">Ada 0 laporan yang belum di VERIFIKASI</div>
                         </div>
                     <div class="col-auto">
                         <i class="fas fa-comments fa-4x text-gray-300"></i>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 29, 2021 at 06:37 AM
+-- Generation Time: Mar 29, 2021 at 08:39 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -35,13 +35,6 @@ CREATE TABLE `masyarakat` (
   `password` varchar(32) NOT NULL,
   `telp` varchar(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `masyarakat`
---
-
-INSERT INTO `masyarakat` (`nik`, `nama`, `username`, `password`, `telp`) VALUES
-('001', 'Aldi', 'Aldi', 'cantik', '082116851233');
 
 -- --------------------------------------------------------
 
@@ -78,8 +71,7 @@ CREATE TABLE `petugas` (
 --
 
 INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `telp`, `level`) VALUES
-(2, 'petugas', 'petugas', 'cantik', '082262304321', 'petugas'),
-(8, 'admin2', 'admin2', 'cantik', '087716858907', 'admin');
+(1, 'admin', 'admin', 'cantik', '082262301234', 'admin');
 
 -- --------------------------------------------------------
 
@@ -137,7 +129,7 @@ ALTER TABLE `pengaduan`
 -- AUTO_INCREMENT for table `petugas`
 --
 ALTER TABLE `petugas`
-  MODIFY `id_petugas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_petugas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tanggapan`
