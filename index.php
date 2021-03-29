@@ -83,7 +83,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              Saran atau kritikan masyrakat merupakan salah satu bentuk keikutsertaan masyarakat dalam proses pembangunan. 
+              Saran atau kritikan masyarakat merupakan salah satu bentuk keikutsertaan masyarakat dalam proses pembangunan. 
               Yang dijadikan salah satu pertimbangan dalam memberikan rekomendasi terkait kebijakan dan arah pembangunan yang diambil oleh pemerintah.
               Hal ini lebih nyata terlihat di era desentralisasi pemerintahan seperti sekarang ini. Berikut manfaat yang didapat :
             </p>

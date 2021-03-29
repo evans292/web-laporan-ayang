@@ -10,8 +10,6 @@ if($_SESSION['level']!="admin")
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -43,7 +41,7 @@ if($_SESSION['level']!="admin")
     <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-keyboard"></i>
         </div>

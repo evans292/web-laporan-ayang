@@ -31,24 +31,24 @@
         <form action="simpan_petugas.php" method="post" class="form-horizontal" enctype="multipart/form-data">
             <div class="form-group cols-sm-6">
                 <label>Nama Petugas</label>
-                <input type="text" name="nama_petugas" value="" class="form-control">
+                <input type="text" name="nama_petugas" value="" class="form-control" required>
             </div>
             <div class="form-group cols-sm-6">
                 <label>Username</label>
-                <input type="text" name="username" value="" class="form-control">
+                <input type="text" name="username" value="" class="form-control" required> 
             </div>
             <div class="form-group cols-sm-6">
                 <label>Password</label>
-                <input type="text" name="password" value="" class="form-control">
+                <input type="password" name="password" value="" class="form-control" required>
             </div>
             <div class="form-group cols-sm-6">
                 <label>Telp</label>
-                <input type="text" name="telp" value="" class="form-control">
+                <input type="text" name="telp" value="" class="form-control" required>
             </div>
             <div class="form-group cols-sm-6">
                 <label>Level</label>
-                <select class="form-control" name="level">
-                    <option>Pilih</option>
+                <select class="form-control" name="level" required>
+                    <option value=""> Pilih</option>
                     <option value="admin">Admin</option>
                     <option value="petugas">Petugas</option>
                 </select>

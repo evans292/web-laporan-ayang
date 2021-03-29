@@ -47,7 +47,6 @@
                       <th>ID Petugas</th>
                       <th>Nama Petugas</th>
                       <th>Username</th>
-                      <th>Password</th>
                       <th>Telp</th>
                       <th>Level</th>
                       <th>Aksi</th>
@@ -66,7 +65,6 @@
                         <td><?php echo $data['id_petugas']; ?></td>
                         <td><?php echo $data['nama_petugas']; ?></td>
                         <td><?php echo $data['username']; ?></td>
-                        <td><?php echo $data['password']; ?></td>
                         <td><?php echo $data['telp']; ?></td>
                         <td><?php echo $data['level']; ?></td>
 

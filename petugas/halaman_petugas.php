@@ -32,7 +32,7 @@ else
  <?php
     
     require '../koneksi.php';
-    $sqli=mysqli_query($konek, "select * from pengaduan where status='0'");
+    $sqli=mysqli_query($konek, "select * from pengaduan where status='tunggu'");
     if ($cek=mysqli_num_rows($sqli))
     {
     ?>

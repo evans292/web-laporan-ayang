@@ -21,6 +21,10 @@ if (isset($_GET['url']))
         include'detail_pengaduan.php';
         break;
 
+        case 'detail_pengaduan2':
+        include'detail_pengaduan2.php';
+        break;
+
         case 'tanggapan':
         include'tanggapan.php';
         break;

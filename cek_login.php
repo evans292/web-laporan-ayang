@@ -17,7 +17,7 @@ $cek=mysqli_num_rows($sqli);
     {
         ?>
         <script type="text/javascript">
-        alert ('Login Gagal');
+        alert ('Login Gagal, cek kembali dan silahkan untuk mengulangi dan memasukan data yang benar! ');
         window.location="login.php";
         </script>
 <?php

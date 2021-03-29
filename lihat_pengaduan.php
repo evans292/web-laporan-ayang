@@ -60,13 +60,7 @@
                       <td><?php echo $data['nik']; ?> </td>
                       <td><?php echo $data['isi_laporan']; ?> </td>
                       <td><?php echo $data['foto']; ?> </td>
-                      <td>
-                        <?php if($data['status'] == 0) { ?>
-                          menunggu
-                        <?php } else { ?>
-                        <?php echo $data['status']; ?>
-                        <?php } ?>
-                      </td>
+                      <td><?php echo $data['status']; ?> </td>
                       <td>
 
                       <!--Button-->

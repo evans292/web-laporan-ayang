@@ -51,7 +51,6 @@ session_start();
                       <th>Tanggal</th>
                       <th>NIK</th>
                       <th>Isi Pengaduan</th>
-                      <th>Foto</th>
                       <th>Status</th>
                     </tr>
                   
@@ -69,7 +68,6 @@ session_start();
                       <td><?php echo $data['tgl_pengaduan']; ?> </td>
                       <td><?php echo $data['nik']; ?> </td>
                       <td><?php echo $data['isi_laporan']; ?> </td>
-                      <td><?php echo $data['foto']; ?> </td>
                       <td><?php echo $data['status']; ?> </td>
                       </tr>
                     

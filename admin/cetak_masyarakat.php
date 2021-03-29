@@ -50,7 +50,6 @@ session_start();
                       <th>NIK</th>
                       <th>Nama</th>
                       <th>Username</th>
-                      <th>Password</th>
                       <th>Telp</th>
                     </tr>
                   
@@ -67,7 +66,6 @@ session_start();
                         <td><?php echo $data['nik']; ?></td>
                         <td><?php echo $data['nama']; ?></td>
                         <td><?php echo $data['username']; ?></td>
-                        <td><?php echo $data['password']; ?></td>
                         <td><?php echo $data['telp']; ?></td>
                      </tr>
                     

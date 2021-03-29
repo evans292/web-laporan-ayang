@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Login</title>
+  <title>Register Masyarakat</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -205,19 +205,19 @@ a {
                   <form class="user" method="post" action="simpan_masyarakat.php">
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">NIK</h6>
-                        </label> <input class="mb-3" type="text" name="nik" placeholder="NIK"> </div>
+                        </label> <input class="mb-3" type="text" name="nik" placeholder="NIK" required> </div>
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Nama</h6>
-                        </label> <input class="mb-3" type="text" name="nama" placeholder="Nama"> </div>
+                        </label> <input class="mb-3" type="text" name="nama" placeholder="Nama" required> </div>
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Username</h6>
-                        </label> <input class="mb-3" type="text" name="username" placeholder="Username"> </div>
+                        </label> <input class="mb-3" type="text" name="username" placeholder="Username" required> </div>
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Password</h6>
-                        </label> <input class="mb-3" type="password" name="password" placeholder="Password"> </div>
+                        </label> <input class="mb-3" type="password" name="password" placeholder="Password" required> </div>
                     <div class="row px-3"> <label class="mb-1">
                             <h6 class="mb-0 text-sm">Telepon</h6>
-                        </label> <input class="mb-3" type="text" name="telp" placeholder=" Nomor Telepon"> </div>
+                        </label> <input class="mb-3" type="text" name="telp" placeholder=" Nomor Telepon" required> </div>
                     <br>
                     <div class="row mb-3 px-3"> <button type="submit" class="btn btn-success text-center">Daftar</button> </div><br>
                     

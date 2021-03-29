@@ -66,7 +66,7 @@
                       <td><?php echo $data['status']; ?> </td>
                      <td>
                       <!--Button-->
-                        <a href="?url=detail_pengaduan&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-info btn-icon-split">
+                        <a href="?url=detail_pengaduan2&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-info btn-icon-split">
                         <span class="icon text-white-50">
                         <i class="fas fa-info"></i>
                         </span>

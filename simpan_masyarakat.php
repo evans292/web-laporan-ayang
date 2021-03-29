@@ -6,14 +6,25 @@ $user=$_POST['username'];
 $pass=$_POST['password'];
 $telp=$_POST['telp'];
 
-$sqli=mysqli_query($konek, "insert into masyarakat values('$nik','$nama','$user','$pass','$telp')");
-if ($sqli)
-{
+$cek = mysqli_query($konek, "select * from masyarakat where nik=$nik");
+if(mysqli_num_rows($cek) !== 1) {
+    $sqli=mysqli_query($konek, "insert into masyarakat values('$nik','$nama','$user','$pass','$telp')");
+    if ($sqli)
+    {
+        ?>
+        <script type="text/javascript">
+            alert ('Data Berhasil Disimpan, Silahkan Untuk Login');
+            window.location="login.php";
+        </script>
+        <?php
+    }
+} else {
     ?>
-    <script type="text/javascript">
-        alert ('Data Berhasil Disimpan, Silahkan Untuk Login');
-        window.location="index.php";
-    </script>
+        <script type="text/javascript">
+            alert ('Nik sudah terdaftar');
+            window.location="register.php";
+        </script>
     <?php
 }
+
 ?>

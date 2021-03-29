@@ -56,7 +56,7 @@
 
             <div class="form-group cols-sm-6">
                 <label>Tulis Tanggapan</label>
-                <textarea class="form-control" rows="7" name="tanggapan"></textarea>
+                <textarea class="form-control" rows="7" name="tanggapan" required></textarea>
             </div>
             
             <div class="form-group cols-sm-6">

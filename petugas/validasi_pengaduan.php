@@ -48,7 +48,7 @@
 
                   <?php
                   require '../koneksi.php';
-                  $sqli=mysqli_query($konek, "select * from pengaduan where status='0'");
+                  $sqli=mysqli_query($konek, "select * from pengaduan where status='tunggu'");
                   while ($data=mysqli_fetch_array($sqli)) {
 
                   ?>
@@ -60,13 +60,7 @@
                       <td><?php echo $data['nik']; ?> </td>
                       <td><?php echo $data['isi_laporan']; ?> </td>
                       <td><?php echo $data['foto']; ?> </td>
-                      <td>
-                        <?php if($data['status'] == 0) { ?>
-                          menunggu
-                        <?php } else { ?>
-                        <?php echo $data['status']; ?>
-                        <?php } ?>
-                      </td>
+                      <td><?php echo $data['status']; ?> </td>
                       <td>
 
                       <!--Button-->
