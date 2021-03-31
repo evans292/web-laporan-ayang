@@ -5,6 +5,10 @@ if (isset($_GET['url']))
 
     switch($url)
     {
+        case 'profil':
+        include'profil.php';
+        break; 
+
         case 'verifikasi_pengaduan':
         include'verifikasi_pengaduan.php';
         break;

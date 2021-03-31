@@ -73,11 +73,16 @@ if($_SESSION['level']!="admin")
    
       <!-- Nav Item - Tables -->
       <li class="nav-item">
+        <a class="nav-link" href="?url=profil">
+          <i class="fas fa-user"></i>
+          <span>Profil</span></a>
+      </li>
+
+      <li class="nav-item">
         <a class="nav-link" href="?url=validasi_pengaduan">
           <i class="fas fa-edit"></i>
           <span>Validasi Pengaduan</span></a>
       </li>
-
 
       <li class="nav-item">
         <a class="nav-link" href="?url=verifikasi_pengaduan">
@@ -121,13 +126,7 @@ if($_SESSION['level']!="admin")
       </li>
 
       <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
-      <li class="nav-item">
-        <a class="nav-link" href="../logout.php">
-          <i class="fas fa-sign-out-alt"></i>
-          <span>Keluar</span></a>
-      </li>
-
+      
       <!-- Sidebar Toggler (Sidebar) -->
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
@@ -152,7 +151,27 @@ if($_SESSION['level']!="admin")
 
          <h4 class="text-uppercase text-dark font-weight-bold">Aplikasi Pengaduan Masyarakat</h4>
 
-         <p class="mt-2 font-weight-bold text-capitalize"><?= $_SESSION['nama']; ?></p>
+        <!-- Profil ---->
+         <li class="nav-link dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p class="mt-2 font-weight-bold text-capitalize"><?= $_SESSION['nama']; ?></p>
+                </a>
+
+          <!-- Dropdown - User Information -->
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="?url=profil">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+
+          <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="../logout.php">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+
+        </li>
         </nav>
         <!-- End of Topbar -->
 
