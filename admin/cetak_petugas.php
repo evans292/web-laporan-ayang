@@ -37,9 +37,9 @@ session_start();
             </div>
             <div class="card-body">
 
-            <h3 class="m-0 font-weight-bold text-success" align="center">DISKOMINFO SUMEDANG</h3>
-            <h4 class="m-0 font-weight-bold text-success" align="center">Kantor Pemerintah di Sumedang</h4>
-            <h5 class="m-0 font-weight-bold text-success" align="center">Jl. Angkrek No.103, Situ, Kec.Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45621</h5>
+            <h3 class="m-0 font-weight-bold text-success" align="center">SMK NEGERI 1 SUMEDANG</h3>
+            <h4 class="m-0 font-weight-bold text-success" align="center">Rekayasa Perangkat Lunak</h4>
+            <h5 class="m-0 font-weight-bold text-success" align="center">Jln. Mayor Abdurakhman No.209 Sumedang, 45352 Tlp.(0261) 202056 Fax.(0261) 202056</h5>
             <br><hr>
             <h6 class="m-0 font-weight-bold text-success" align="center">Laporan Data Petugas</h6>
             <br>

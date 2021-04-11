@@ -34,11 +34,7 @@
             </div>
             <div class="form-group cols-sm-6">
                 <label>Level</label>
-                <select class="form-control" name="level">
-                    <option value="<?php echo $data['level']; ?> "> <?php echo $data ['level']; ?></option>
-                    <option value="admin">Admin</option>
-                    <option value="petugas">Petugas</option>
-                </select>
+                <input type="text" name="level" value="<?php echo $data['level']; ?>" class="form-control" readonly>
             </div>
              
         

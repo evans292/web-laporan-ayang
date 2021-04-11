@@ -11,7 +11,7 @@
     {
         ?>
     
-        <form action="update_petugas.php" method="post" class="form-horizontal" enctype="multipart/form-data">
+        <form action="update_admin.php" method="post" class="form-horizontal" enctype="multipart/form-data">
             <div class="form-group cols-sm-6">
                 <label>ID Petugas</label>
                 <input type="text" name="id_petugas" value="<?php echo $data['id_petugas']; ?> " class="form-control" readonly>
@@ -34,11 +34,7 @@
             </div>
             <div class="form-group cols-sm-6">
                 <label>Level</label>
-                <select class="form-control" name="level">
-                    <option value="<?php echo $data['level']; ?> "> <?php echo $data ['level']; ?></option>
-                    <option value="admin">Admin</option>
-                    <option value="petugas">Petugas</option>
-                </select>
+                <input type="text" name="level" value="<?php echo $data['level']; ?>" class="form-control" readonly>
             </div>
              
         

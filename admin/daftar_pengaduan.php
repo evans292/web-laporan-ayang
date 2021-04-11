@@ -1,5 +1,5 @@
            <!-- DataTales Example -->
-          <div class="card shadow mb-4">
+           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <h6 class="m-0 font-weight-bold text-success">Data Pengaduan</h6>
             </div>
@@ -38,12 +38,15 @@
                       <td><?php echo $data['status']; ?> </td>
                      <td>
                       <!--Button-->
-                        <a href="?url=detail_pengaduan2&id=<?php echo $data['id_pengaduan']; ?>" class="btn btn-info btn-icon-split">
-                        <span class="icon text-white-50">
-                        <i class="fas fa-info"></i>
-                        </span>
-                        <span class="text">Detail</span>
-                      </a>
+                      <a href="?url=detail_pengaduan2&id=<?php echo $data['id_pengaduan']; ?>" 
+                    class="btn btn-info btn-circle">
+                        <i class="fa fa-info"></i>
+                    </a>
+                        
+                      <a href="delete_pengaduan.php?id=<?php echo $data['id_pengaduan']; ?>" 
+                    class="btn btn-danger btn-circle" onclick="return confirm('Yakin akan dihapus?')">
+                        <i class="fa fa-trash"></i>
+                    </a>
                      </td>
                      
 

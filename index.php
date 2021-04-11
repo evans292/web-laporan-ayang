@@ -75,7 +75,7 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Euis Khoirunnisa</h3>
             <p>
-              <strong>Phone:</strong> +62 822-6230-6579<br>
+              <strong>Phone:</strong> +62 851-5991-3413<br>
               <strong>Email:</strong> euiskhoirun@gmail.com<br>
             </p>
           </div>

@@ -193,13 +193,12 @@ a {
 <div class="py-4 bg-success">
             <div class="row px-3"> 
                 <h3 class="ml-5 mb-2 text-light">Registrasi</h3>
-
             </div>
         </div>
-<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-4 mx-auto">
-    <div class="card card0 border-0">
-        <div class="row d-flex">
-            
+    </div>
+
+        <div class="card card0 border-0">
+        <div class="row d-flex"> 
             <div class="col-lg-6">
                 <div class="card2 card border-0 px-2 py-3">
                   <form class="user" method="post" action="simpan_masyarakat.php">
@@ -219,8 +218,9 @@ a {
                             <h6 class="mb-0 text-sm">Telepon</h6>
                         </label> <input class="mb-3" type="text" name="telp" placeholder=" Nomor Telepon" required> </div>
                     <br>
-                    <div class="row mb-3 px-3"> <button type="submit" class="btn btn-success text-center">Daftar</button> </div><br>
-                    
+                    <div class="row mb-3 px-3"> <button type="submit" class="btn btn-success text-center">Daftar</button> </div>
+                    <br>
+
                   </form>
                 </div>
             </div>

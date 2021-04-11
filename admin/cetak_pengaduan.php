@@ -29,18 +29,19 @@ session_start();
 
 <body id="page-top">
 
+
   
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              
             </div>
             <div class="card-body">
-
-            <h3 class="m-0 font-weight-bold text-success" align="center">DISKOMINFO SUMEDANG</h3>
-            <h4 class="m-0 font-weight-bold text-success" align="center">Kantor Pemerintah di Sumedang</h4>
-            <h5 class="m-0 font-weight-bold text-success" align="center">Jl. Angkrek No.103, Situ, Kec.Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45621</h5>
+            
+            <h3 class="m-0 font-weight-bold text-success" align="center">SMK NEGERI 1 SUMEDANG</h3>
+            <h4 class="m-0 font-weight-bold text-success" align="center">Rekayasa Perangkat Lunak</h4>
+            <h5 class="m-0 font-weight-bold text-success" align="center">Jln. Mayor Abdurakhman No.209 Sumedang, 45352 Tlp.(0261) 202056 Fax.(0261) 202056</h5>
             <br><hr>
+            
             <h6 class="m-0 font-weight-bold text-success" align="center">Laporan Daftar Pengaduan</h6>
             <br>
               <div class="table-responsive">
@@ -55,12 +56,15 @@ session_start();
                     </tr>
                   
 
-                  <?php
+                <?php
                   require '../koneksi.php';
-                  $sqli=mysqli_query($konek, "select * from pengaduan");
-                  while ($data=mysqli_fetch_array($sqli)) {
+                  if(isset($_GET['filter_tgl'])){
+                    $mulai = $_GET['tgl_mulai'];
+                    $selesai = $_GET['tgl_selesai'];
+                    $sqli=mysqli_query($konek, "select * from pengaduan where tgl_pengaduan between '$mulai' and '$selesai'");
+                    while ($data=mysqli_fetch_array($sqli)) {
 
-                  ?>
+                ?>
                   
                   <tbody>
                   <tr>
@@ -73,6 +77,7 @@ session_start();
                     
                     
                   </tbody>
+                  <?php } ?>
                   <?php } ?>
                 </table>
               </div>

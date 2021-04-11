@@ -124,7 +124,7 @@ if ($_SESSION['level']!="petugas")
         <!-- Profil ---->
         <li class="nav-link dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <p class="mt-2 font-weight-bold text-capitalize"><?= $_SESSION['nama']; ?></p>
+                <p class="mt-2 font-weight-bold text-capitalize">About</p>
                 </a>
 
           <!-- Dropdown - User Information -->
